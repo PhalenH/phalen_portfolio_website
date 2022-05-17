@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phalen Hazel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="main-container" id="top-of-screen">
+    <nav>
+      <div class="nav-container">
+        <a href="#top-of-screen"
+          ><i class="bi bi-house-door-fill white-fill"></i
+        ></a>
+        <a href="#info"><i class="bi bi-person-fill white-fill"></i></a>
+        <a href="#projects"><i class="bi bi-grid-fill white-fill"></i></a>
+        <a href="#contact"><i class="bi bi-envelope-fill white-fill"></i></a>
+        <a href="./assets/Resume.pdf" target="_blank">
+          <i class="bi bi-file-text-fill white-fill"></i>
+        </a>
+      </div>
+    </nav>
+
+    <section class="welcome-container">
+      <div class="welcome-information">
+        <h1 id="greeting">I'm Phalen Hazel</h1>
+        <p id="who-i-am">Software Developer</p>
+      </div>
+    </section>
+    <section class="info-container" id="info">
+      <h1>Who am I?</h1>
+      <div class="about-me-container">
+        <div class="bio-image-container">
+          <img
+            class="selfie"
+            alt="Phalen at zion National Park"
+            src="./assets/forest-selfie.jpg"
+          />
+        </div>
+        <p>
+          I'm a Software Developer with a passion for turning ideas into
+          results through accurate code, creative designs, and modern solutions.
+          I love creating captivating, fluid websites and applications to build
+          a more enjoyable user experience on the web.
+          <br /><br />
+          I've spent my post-collegiate life working as a Physical Therapist
+          Assistant at skilled nursing facilities. This professional experience
+          has sharpened my time management and organizational skills, taught me
+          how to excel in high-stress environments, and allowed me to work in a
+          team focused setting which further strengthened my communication
+          skills and ability to work effectively in a diverse organization.
+          <br /><br />
+          Outside of work and my studies I enjoy staying active and going to see
+          live music. I'm a fan of seizing each day so I'm
+          always open to new experiences and learning new skills in order to
+          grow as a person and professional!
+        </p>
+      </div>
+      <div class="skill-icons">
+        <img
+          class="icon-logo"
+          src="./assets/skills/html-5-logo.png"
+          alt="html logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/css-logo.png"
+          alt="css logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/js-logo.png"
+          alt="js logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/nodejs-logo-png.png"
+          alt="nodejs logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/mongoIcon.png"
+          alt="mongo logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/mysql-logo.png"
+          alt="mysql logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/react-logo.png"
+          alt="react logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/heroku-logo.png"
+          alt="heroku logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/handlebars-logo.png"
+          alt="handlebars logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/jquery-logo.png"
+          alt="jquery logo"
+        />
+        <img
+          class="icon-logo"
+          src="./assets/skills/express-logo.png"
+          alt="jquery logo"
+        />
+      </div>
+    </section>
+
+    <section class="project-container" id="projects">
+      <h1>My work</h1>
+      <div class="big-project-box">
+        <div class="project-card-unobserved float-right">
+          <div class="outer-image-container small-right">
+            <img
+              src="./assets/LandingPage_Screenshot.png"
+              class="card-img-top"
+              alt="Maze-screenshot"
+              id="maze-img"
+            />
+          </div>
+          <div class="project-info-right">
+            <h2 class="project-title">Brunch Bites</h2>
+            <p class="card-text">
+              Find new brunch places via searching by city or town with the
+              ability to save brunch locations to your personal watchlist on
+              your profile page as well as save ones you've visited.
+            </p>
+            <a
+              href="https://brunch-bites.herokuapp.com/"
+              class="btn"
+              target="_blank"
+              >Deployed App</a
+            >
+            <a
+              href="https://github.com/PhalenH/brunch-bites"
+              class="btn"
+              target="_blank"
+              >Project Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card-unobserved float-left">
+          <div class="outer-image-container small-left">
+            <img
+              src="./assets/finished-homepage.png"
+              class="card-img-top"
+              alt="Wishlist-screenshot"
+              id="wishlist-img"
+            />
+          </div>
+          <div class="project-info-left">
+            <h2 class="project-title">Wishlist: Holiday party manager</h2>
+            <p class="card-text">
+              Allows a user to create or join groups with customization for
+              party details, add to their personal wishlist, and set reminders
+              for parties. Helps people manage holiday parties for friends,
+              family, or work that's easy to use.
+            </p>
+            <a
+              href="https://wishlistmanager.herokuapp.com/"
+              class="btn"
+              target="_blank"
+              >Deployed App</a
+            >
+            <a
+              href="https://github.com/PhalenH/gift-exchange-manager"
+              class="btn"
+              target="_blank"
+              >Project Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card-unobserved float-right">
+          <div class="outer-image-container small-right">
+            <img
+              src="./assets/tech-blog.png"
+              class="card-img-top"
+              alt="tech-blog-screenshot"
+              id="tech-blog-img"
+            />
+          </div>
+          <div class="project-info-right">
+            <h2 class="project-title">Tech Blog</h2>
+            <p class="card-text">
+              A tech related blog site where users can create/read/edit posts,
+              read other user's posts, leave comments all in one place.
+            </p>
+            <a
+              href="https://afternoon-everglades-02639.herokuapp.com/"
+              class="btn"
+              target="_blank"
+              >Deployed App</a
+            >
+            <a
+              href="https://github.com/PhalenH/tech-blog"
+              class="btn"
+              target="_blank"
+              >Project Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card-unobserved float-left">
+          <div class="outer-image-container small-left">
+            <img
+              src="./assets/budget-tracker-screenshot.png"
+              class="card-img-top"
+              alt="budget-tracker-screenshot"
+              id="budget-img"
+            />
+          </div>
+          <div class="project-info-left">
+            <h2 class="project-title">Budget Tracker</h2>
+            <p class="card-text">
+              Allows a user to add expenses and deposits to their budget as well
+              as take out costs with or without a connection. Uses indexedDB for
+              offline functionality to allow application to work without data
+              connection.
+            </p>
+            <a
+              href="https://budget-buddy-2022.herokuapp.com/"
+              class="btn"
+              target="_blank"
+              >Deployed App</a
+            >
+            <a
+              href="https://github.com/PhalenH/budget-tracker"
+              class="btn"
+              target="_blank"
+              >Project Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card-unobserved float-right">
+          <div class="outer-image-container small-right">
+            <img
+              src="./assets/maze-runner-screenshot.png"
+              class="card-img-top"
+              alt="Maze-screenshot"
+              id="maze-img"
+            />
+          </div>
+          <div class="project-info-right">
+            <h2 class="project-title">A Maze Game</h2>
+            <p class="card-text">
+              A mobile responsive maze game where a user traverses a series of
+              mazes as fast as they can. Fun to stay busy, can work as memory
+              training, or simply play against friends.
+            </p>
+            <a
+              href="https://isaacjcarnes.github.io/MazeGen/"
+              class="btn"
+              target="_blank"
+              >Deployed App</a
+            >
+            <a
+              href="https://github.com/PhalenH/MazeGen"
+              class="btn"
+              target="_blank"
+              >Project Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card-unobserved float-left">
+          <div class="outer-image-container small-left">
+            <img
+              src="./assets/weather-dashboard.png"
+              class="card-img-top"
+              alt="weather-dashboard-screenshot"
+              id="weather-img"
+            />
+          </div>
+          <div class="project-info-left">
+            <h2 class="project-title">Weather Dashboard</h2>
+            <p class="card-text">
+              Check the weather and get the 5 day forecast anywhere in the
+              United states. Allows previous searched cities to be saved for
+              easy access when returning to site.
+            </p>
+            <a
+              href="https://phalenh.github.io/weather-dashboard/index.html"
+              class="btn"
+              target="_blank"
+              >Deployed App</a
+            >
+            <a
+              href="https://github.com/PhalenH/weather-dashboard"
+              class="btn"
+              target="_blank"
+              >Project Repo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="desk-bg-img scroll-bg-img bg-container">
+      <div class="bg-sroll-txt-container">
+        <h1 class="bg-sroll-txt">Let's Connect!</h1>
+      </div>
+    </div>
+    <section id="contact">
+      <div>
+        <h2>Contact me:</h2>
+        <div class="contact-me-info">
+          <img src="./assets/ready-to-work.jpg" alt="business snoopy" />
+          <div class="h2-info">
+            <h2><i class="bi bi-geo-alt-fill"></i> Philadelphia, PA</h2>
+            <h2><i class="bi bi-telephone-fill"></i> Phone: (717) 808-1137</h2>
+            <h2>
+              <i class="bi bi-envelope-fill"></i> Email: phalenhazel@gmail.com
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-icon-container">
+        <a href="./assets/Resume.pdf" target="_blank">
+          <div class="icon-text-container">
+            <i class="bi bi-file-text-fill"></i>
+            <p class="icon-text">Resume</p>
+          </div>
+        </a>
+        <a href="https://github.com/PhalenH" target="_blank">
+          <div class="icon-text-container">
+            <i class="bi bi-github"></i>
+            <p class="icon-text">Github</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/phalen-hazel/" target="_blank">
+          <div class="icon-text-container">
+            <i class="bi bi-linkedin"></i>
+            <p class="icon-text">LinkedIn</p>
+          </div>
+        </a>
+      </div>
+      <h3 class="contact-me">
+        Feel free to reach out if you are interested in working together, have
+        any questions, or just want to chat! <br /><br />
+        <a
+          href="mailto:phalenhazel@gmail.com?subject=Portfolio Connection"
+          id="email-me"
+          >Click here to send an email</a
+        >
+      </h3>
+    </section>
+    <footer>Designed & Developed by ME</footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
