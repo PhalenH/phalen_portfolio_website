@@ -457,6 +457,14 @@ a:active {
 }
 
 @media screen and (max-width: 480px), screen and (max-height: 480px) {
+  .welcome-container {
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: 1910px 950px;
+  }
+  .scroll-bg-img {
+    background-attachment:scroll;
+  }
   #greeting {
     font-size: 30px;
   }
