@@ -76,8 +76,10 @@ h1 {
 .welcome-container {
   color: var(--main-text);
   background-image: url(./assets/phillyskyline.jpg);
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 1910px 950px;
+  background-size: cover;
   min-height: 100%;
   display: flex;
   flex-direction: column;
